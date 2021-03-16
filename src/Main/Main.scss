@@ -1,0 +1,22 @@
+.main-container {
+  width: 50%;
+  margin: 300px auto;
+  text-align: center;
+
+  .btn {
+    width: 150px;
+    background-color: white;
+    border: 1px solid #5239ad;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 5px 2px 2px #d6d6d6;
+
+    &:hover {
+      border: none;
+      background-color: #5239ad;
+      color: #FFFFFF;
+    }
+  }
+}

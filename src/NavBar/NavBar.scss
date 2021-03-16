@@ -1,0 +1,27 @@
+.nav-container {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  background-color: #5239ad;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .btn {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px;
+    &:hover {
+      background-color: black;
+      border-radius: 5px;
+      border: 1px solid #d6d6d6;
+    }
+  }
+}
